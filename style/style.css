@@ -12,17 +12,62 @@
     font-size: 18px;
     color: white;
     border: 0;
+     
+}
+.hero-parent-root{
+    background-color:rgb(254, 246, 231);
+}
+img{
+    max-width: 100%;
+}
+
+.comon-btn{
+cursor: pointer; 
+transition: 0.3s;
+}
+
+.comon-btn:hover {
+    transform: scale(1.1);
+    
+}
+
+
+.outline-btn{
+    background-color: white;
+    padding: 5px 8px;
+    border-radius: 5px 15px;
+    font-weight: bold;
+    font-size: 18px;
+    color: orangered;
+    border: 1px solid orangered;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.outline-btn {
+    
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.outline-btn:hover {
+    transform: scale(1.1);
+    
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
 }
 
 header{
-background-color: gray;
+
 }
 nav{
     
     display: flex;
     justify-content: space-between;
-    max-width: 1000px;
-    margin: auto;
+    
     padding: 10px 0;
 }
 
@@ -55,5 +100,57 @@ transform: scale(1.1);
 
 ul li a {
     text-decoration: none;
-    color: white;
+    color:rgb(78, 78, 78);
+ 
+}
+
+
+/* hero parant style */
+
+.hero-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-left h2{
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 8px;
+}
+
+.hero-left-p-1{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.hero-left-btn-parent{
+    
+    margin-top: 10px;
+    
+}
+
+/* about start */
+.about-parent{
+    background-color:rgb(254, 246, 231) ;
+    margin: 100px auto;
+    padding: 70px;
+    text-align: center;
+}
+
+.about-parent p{
+    margin: 10px 0;
+}
+
+.about-parent-box{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+.about-parent-box .box{
+    background-color:rgb(251, 233, 200);
+    padding: 10px 12px;
+    border-radius: 8px;
 }
