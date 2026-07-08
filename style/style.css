@@ -3,6 +3,11 @@
     padding: 0;
     margin: 0;
 }
+
+#alada-a{
+    color: white;
+}
+
 /* comon style */
 .comon-btn{
     background-color: orangered;
@@ -170,6 +175,11 @@ ul li a {
     text-align: justify;
     
 }
+
+.p-first{
+    text-align: justify;
+}
+
 .what-i-do-card-container .what-i-do-card{
 border: 2px solid orangered;
 padding: 8px;
@@ -179,3 +189,33 @@ border-radius: 10px;
 .what-i-do-card-container .what-i-do-card p{
     color:rgb(56, 56, 56);
 }
+
+/* summry start */
+
+.summary-container{
+    display: flex;
+    margin-top: 60px;
+    gap: 20px;
+    text-align: justify;
+}
+
+.summary-parent{
+    text-align: center;
+    margin-top: 120px;
+}
+
+.my-education{
+    margin: 15px auto;
+}
+
+.download-button {margin-top: 40px;
+ 
+}
+.download-button a{margin-top: 40px;
+ text-decoration: none;
+ color: white;
+}
+
+
+
+
